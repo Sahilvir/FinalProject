@@ -82,8 +82,8 @@ public class DeezerSearchMain extends AppCompatActivity {
         Intent fromMain = getIntent();
 
         //creating toolbar
-        Toolbar deezerToolbar = (Toolbar) findViewById(R.id.deezerToolBar);
-        setActionBar(deezerToolbar);
+//        Toolbar deezerToolbar = (Toolbar) findViewById(R.id.deezerToolBar);
+//        setActionBar(deezerToolbar);
         //createToolbars();
 
         //setting the EditText to be what is stored in pref
@@ -236,20 +236,20 @@ public class DeezerSearchMain extends AppCompatActivity {
      * @param menu
      * @return
      */
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.deezermenu, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.deezermenu, menu);
+//        return true;
+//    }
 
     /** Allows user to navigate to different activities
      *
      * @param item
      * @return
      */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
 
 //        switch(item.getItemId()) {
 //            case R.id.deezer_menu_item1:
@@ -271,8 +271,8 @@ public class DeezerSearchMain extends AppCompatActivity {
 //                Toast.makeText(this, R.string.lyrics_about,Toast.LENGTH_LONG).show();
 //                break;
 //        }
-        return true;
-    }
+//        return true;
+//    }
 
 
     /** Empties the EditText box and returns the String that was written inside it
