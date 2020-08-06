@@ -4,19 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SoccerMainActivity">
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"/>
-
+    tools:context=".Soccer_Favourite">
 
     <ListView
-        android:id="@+id/matchList"
+        android:id="@+id/savedMatches"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </RelativeLayout>
