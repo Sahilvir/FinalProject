@@ -1,6 +1,55 @@
 <resources>
     <string name="app_name">FinalProject</string>
 
+    //songlyrics
+    <string name="enter_artist">Artist/s Name</string>
+    <string name="artist_hint">Type Artist Name Here</string>
+    <string name="enter_song">Song/s Name</string>
+    <string name="song_hint">Type Song Here</string>
+    <string name="search_button">Search</string>
+    <string name="search_first_text">Search for</string>
+    <string name="search_second_text">By</string>
+    <string name="list_title">Saved Searches</string>
+    <string name="song_header">Song</string>
+    <string name="artist_header">Artist</string>
+    <string name="saved_button">Favorites</string>
+    <string name="google_button">Google Search</string>
+    <string name="save_button">Save</string>
+    <string name="lyric_instructions">Guide of how to do it</string>
+    <string name="search_button_appinstructions">To search for the song- Enter "Artist/s Name" and "Song Name" then click search to retrieve the lyrics</string>
+    <string name="google_search_button_instruction">To do it using Google- Enter "Artist/s Name" and "Song Name" switch from Api search to Google search to be able to do the search in google, then click search</string>
+    <string name="save_button_instruction">Yo can save your your favourite songs- Saves the current Artist/s Name and Song Names from the text boxes into Favourites page</string>
+    <string name="favourites_button_instruction">FAVOURITES - Click the bottom to go to the list that you have saved</string>
+    <string name="result_hint">Searching...</string>
+    <string name="not_found">The song was not found!</string>
+    <string name="toast_found">The Song was found!</string>
+    <string name="search_switch_default">API Search</string>
+    <string name="search_switch_google">Google Search</string>
+    <string name="snackbar_on_message">Search mode Google</string>
+    <string name="snackbar_off_message">Search mode API</string>
+    <string name="snackbar_undo">Undo</string>
+    <string name="hide_lyric_fragment">Hide</string>
+    <string name="lyric_menu_soccer">Soccer Match</string>
+    <string name="lyric_menu_geo">Geo Data</string>
+    <string name="lyric_menu_deezer">Deezer </string>
+    <string name="lyric_menu_about">About this Project</string>
+    <string name="drawer_menu_instructions">Instructions for this App</string>
+    <string name="drawer_menu_api">About the API</string>
+    <string name="drawer_menu_donation">Donate to project</string>
+    <string name="lyric_open_drawer">Open</string>
+    <string name="lyric_close_drawer">Close</string>
+    <string name="donate_message">How much would you like to donate?</string>
+    <string name="send_donation">Send Donation</string>
+    <string name="cancel">cancel donation</string>
+    <string name="contribution_received">Thank you for your donation!</string>
+    <string name="nav_header">Laksmi Garcia garc0185@algonquinlive.com</string>
+    <string name="toolbar_instruction">Introduce a song that you like, or you like to learn the lyrics, and if the song that you chose exist the lyrics will appear.</string>
+    <string name="lyrics_about">Song Lyrics Search app written by Laksmi Garcia </string>
+    <string name="button">Geo Data Source</string>
+    <string name="button2">Soccer Match Highlights</string>
+    <string name="button3">Song Lyrics Search</string>
+    <string name="button4">Deezer song search API</string>
+
     //Strings for Deezer Song Search API
     <string name="deezer_main_songSearch">Song Search</string>
     <string name="deezer_main_helpButton">HELP</string>
@@ -43,4 +92,27 @@
 
     <string name="deezer_open">Open</string>
     <string name="deezer_close">Close</string>
+
+    //Geodata
+
+    <string name="select_location"> Enter Latitude and Longitude values</string>
+    <string name="lat_hint"> Latitude </string>
+    <string name="lng_hint"> Longitude </string>
+    <string name="go"> Go </string>
+    <string name="citi"> List of Cities </string>
+    <string name="goTo"> GO TO MAPS</string>
+    <string name="save"> SAVE</string>
+    <string name="saved"> Saved Cities</string>
+    <string name="delete"> Delete </string>
+    <string name="hide"> Hide</string>
+    <string name="goToSaved"> Go to Saved Cities List</string>
+    <string name="help"> Help </string>
+    <string name="details"> Details </string>
+
+    <string name="f1">City: </string>
+    <string name="f2">Region: </string>
+    <string name="f3">Country: </string>
+    <string name="f4">Currency: </string>
+    <string name="f5">Latitude: </string>
+    <string name="f6">Longitude: </string>
 </resources>
