@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/InstructionForThisApp"
+        android:orderInCategory="15"
+        android:title="@string/drawer_menu_instructions"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/AboutApi"
+        android:orderInCategory="25"
+        android:title="@string/drawer_menu_api"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/DonateToProject"
+        android:orderInCategory="45"
+        android:title="@string/drawer_menu_donation"
+        app:showAsAction="always" />
+
+</menu>

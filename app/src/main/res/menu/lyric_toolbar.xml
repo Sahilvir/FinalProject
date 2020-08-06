@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lyricToSoccer"
+        android:icon="@drawable/icon8_soccer_24"
+        android:title="@string/lyric_menu_soccer"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lyricToGeo"
+        android:icon="@drawable/icon8_geo_24"
+        android:title="@string/lyric_menu_geo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lyricToDeezer"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/lyric_menu_deezer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/lyricAbout"
+        android:icon="@drawable/icon8_songlyrics_24"
+        android:title="@string/lyric_menu"
+        app:showAsAction="always" />
+
+
+
+</menu>
