@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CityFragment"/>
+        <activity android:name=".Fragment" />
+        <activity android:name=".Details" />
+        <activity android:name=".SavedCities" />
+        <activity android:name=".CitySearch" />
+        <activity android:name=".LocationPicker" />
         <activity android:name=".songlyricssearch.LyricWebSearchActivity" />
         <activity android:name=".songlyricssearch.LyricEmptyActivity" />
         <activity android:name=".songlyricssearch.LyricResultsActivity"/>

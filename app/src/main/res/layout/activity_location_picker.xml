@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationPicker">
+
+    <TextView
+        android:id="@+id/select_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/select_location" />
+
+    <EditText
+        android:id="@+id/lat_picker"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="@string/lat_hint"
+        android:layout_below="@+id/select_location"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <EditText
+        android:id="@+id/lng_picker"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="@string/lng_hint"
+        android:layout_below="@+id/select_location"
+        android:layout_toEndOf="@+id/lat_picker"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="160dp"
+        android:layout_below="@+id/lat_picker"
+        android:text="@string/go" />
+
+    <TextView
+        android:id="@+id/goToSavedCities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/go_button"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:text="@string/goToSaved"/>
+    <Button
+        android:id="@+id/saved_cities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goToSavedCities"
+        android:layout_marginTop="30dp"
+        android:text="@string/saved"
+        android:layout_marginStart="150dp"/>
+
+</RelativeLayout>

@@ -92,4 +92,27 @@
 
     <string name="deezer_open">Open</string>
     <string name="deezer_close">Close</string>
+
+    //Geodata
+
+    <string name="select_location"> Enter Latitude and Longitude values</string>
+    <string name="lat_hint"> Latitude </string>
+    <string name="lng_hint"> Longitude </string>
+    <string name="go"> Go </string>
+    <string name="citi"> List of Cities </string>
+    <string name="goTo"> GO TO MAPS</string>
+    <string name="save"> SAVE</string>
+    <string name="saved"> Saved Cities</string>
+    <string name="delete"> Delete </string>
+    <string name="hide"> Hide</string>
+    <string name="goToSaved"> Go to Saved Cities List</string>
+    <string name="help"> Help </string>
+    <string name="details"> Details </string>
+
+    <string name="f1">City: </string>
+    <string name="f2">Region: </string>
+    <string name="f3">Country: </string>
+    <string name="f4">Currency: </string>
+    <string name="f5">Latitude: </string>
+    <string name="f6">Longitude: </string>
 </resources>
