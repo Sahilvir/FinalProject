@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*Button button = findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener((v) ->{
             Intent intent = new Intent(MainActivity.this, GeoMain.class);
         startActivity(intent);
         });
-    Button button2 = findViewById(R.id.button2);
-    button2.setOnClickListener((v) -> {
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener((v) -> {
             Intent intent = new Intent(MainActivity.this, SoccerMatchMain.class);
             startActivity(intent);
         });
@@ -45,6 +45,5 @@ public class MainActivity extends AppCompatActivity {
                         DeezzerSearchMain.class);
                 startActivity(intent);
             }
-        });*/
-    }
+        });
 }

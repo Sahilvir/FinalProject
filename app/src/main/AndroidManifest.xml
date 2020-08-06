@@ -16,7 +16,8 @@
         <activity android:name=".songlyricssearch.LyricEmptyActivity" />
         <activity android:name=".songlyricssearch.LyricResultsActivity"/>
         <activity android:name=".songlyricssearch.LyricSavedActivity"/>
-        <activity android:name=".songlyricssearch.LyricMainActivity">
+        <activity android:name=".songlyricssearch.LyricMainActivity"/>
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
