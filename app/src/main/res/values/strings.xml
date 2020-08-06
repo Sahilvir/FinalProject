@@ -115,4 +115,15 @@
     <string name="f4">Currency: </string>
     <string name="f5">Latitude: </string>
     <string name="f6">Longitude: </string>
+
+    //soccer highlights
+    <string name="app_name">Soccer Match Highlights</string>
+    <string name="home_button">Soccer Match Highlight</string>
+    <string name="favourite">Favourite</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="infoTextview">Application By Morad Abdelbary : To Get Soccer Match Highlight</string>
+    <string name="save_button">Save</string>
+    <string name="button_highlight">Click For Watch Highlight</string>
+    <string name="delete_button">Delete</string>
 </resources>

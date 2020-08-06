@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ويبرز مباراة كرة القدم</string>
+    <string name="home_button">تسليط الضوء على مباراة كرة القدم</string>
+    <string name="favourite">مفضل</string>
+    <string name="about">حول</string>
+    <string name="exit">خروج</string>
+    <string name="infoTextview">التطبيق بواسطة مراد عبد الباري: للحصول على تسليط الضوء على مباراة كرة القدم</string>
+    <string name="save_button">حفظ الزر</string>
+    <string name="button_highlight">انقر لمشاهدة تمييز</string>
+    <string name="delete_button">حذف</string>
+</resources>

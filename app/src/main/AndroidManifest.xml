@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Soccer_Favourite"/>
+        <activity android:name=".SoccerMatchDetail" />
+        <activity android:name=".HomePageActivity"/>
+        <activity android:name=".SoccerMainActivity" />
+        <activity android:name=".SoccerSavedMatchDetail" />
         <activity android:name=".CityFragment"/>
         <activity android:name=".Fragment" />
         <activity android:name=".Details" />
