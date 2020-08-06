@@ -97,7 +97,7 @@ public class SoccerMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_soccer_main);
 
         listView=(ListView)findViewById(R.id.matchList);
         progressBar=(ProgressBar)findViewById(R.id.progressBar);

@@ -19,7 +19,7 @@ private Button button;
             @Override
             public void onClick(View v) {
                 Intent nextPage = new Intent(HomePageActivity.this,SoccerMainActivity.class);
-startActivity(nextPage);
+        startActivity(nextPage);
             }
         });
 
