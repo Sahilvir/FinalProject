@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
         Button button2 = findViewById(R.id.button2);
         button2.setOnClickListener((v) -> {
-            Intent intent = new Intent(MainActivity.this, HomePageActivity.class);
+            Intent intent = new Intent(MainActivity.this, SoccerMainActivity.class);
             startActivity(intent);
         });
         Button button3 = findViewById(R.id.button3);
