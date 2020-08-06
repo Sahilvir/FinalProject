@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
-//        button.setOnClickListener((v) ->{
-//            Intent intent = new Intent(MainActivity.this, GeoMain.class);
-//        startActivity(intent);
-//        });
-//        Button button2 = findViewById(R.id.button2);
-//        button2.setOnClickListener((v) -> {
-//            Intent intent = new Intent(MainActivity.this, SoccerMatchMain.class);
-//            startActivity(intent);
-//        });
+        button.setOnClickListener((v) ->{
+            Intent intent = new Intent(MainActivity.this, LocationPicker.class);
+        startActivity(intent);
+        });
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener((v) -> {
+            Intent intent = new Intent(MainActivity.this, HomePageActivity.class);
+            startActivity(intent);
+        });
         Button button3 = findViewById(R.id.button3);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
