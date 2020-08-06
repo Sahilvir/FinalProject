@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FinalProject</string>
+
+    //songlyrics
     <string name="enter_artist">Artist/s Name</string>
     <string name="artist_hint">Type Artist Name Here</string>
     <string name="enter_song">Song/s Name</string>
@@ -48,4 +50,46 @@
     <string name="button3">Song Lyrics Search</string>
     <string name="button4">Deezer song search API</string>
 
+    //Strings for Deezer Song Search API
+    <string name="deezer_main_songSearch">Song Search</string>
+    <string name="deezer_main_helpButton">HELP</string>
+    <string name="deezer_main_enterNameText">Enter Artist\'s Name:</string>
+    <string name="deezer_main_nameEditText">Name</string>
+    <string name="deezer_main_searchButton">SEARCH</string>
+    <string name="deezer_main_favButton">FAVOURITES</string>
+
+    <string name="deezer_main_helpBtnAppIns">App Instructions</string>
+    <string name="deezer_main_helpBtnAppIns2">"Type an artist's name into the text box and click the 'Search' button to get a list of their songs.\n\n"
+    "You may click on any of the songs in the list to get more details about them.\n\n"
+    "On the details page you can add a song to your favourites. \n\n"
+    "The 'Favourites' button can be used to view songs saved to your favourites.\n\n"
+    "Clicking on any of the songs in this list will also provide you with details.\n\n"
+    "In the favourites list do a long click to open up a window where you can remove the song from your favourites."</string>
+    <string name="deezer_main_helpBtnClose">Close</string>
+    <string name="deezer_main_delBtnDialog">Do you want to remove this song from favourites?</string>
+    <string name="deezer_main_delBtnInfo">The song selected is</string>
+    <string name="deezer_main_delBtnInfo2">by</string>
+    <string name="deezer_main_delYes">Yes</string>
+    <string name="deezer_main_delNo">No</string>
+    <string name="deezer_main_searchComplete">Search Complete!</string>
+
+    <string name="deezer_frag_titleText">"Title: "</string>
+    <string name="deezer_frag_AlbumText">"Album: "</string>
+    <string name="deezer_frag_DurText">"Duration: "</string>
+    <string name="deezer_frag_addFavBtnText">ADD TO FAVOURITES</string>
+    <string name="deezer_frag_hideBtnText">HIDE</string>
+    <string name="deezer_frag_snackBar1">You have already favourited this song!</string>
+    <string name="deezer_frag_snackBar2">by</string>
+    <string name="deezer_frag_snackBar3">added to favourites!</string>
+
+    <string name="deezer_listV_songName">Song Name</string>
+    <string name="deezer_listV_artistName">Artist Name</string>
+
+    <string name="deezer_menu_item1title">GeoData</string>
+    <string name="deezer_menu_item2title">Soccer</string>
+    <string name="deezer_menu_item3title">SongLyrics</string>
+    <string name="deezer_menu_item4title">About</string>
+
+    <string name="deezer_open">Open</string>
+    <string name="deezer_close">Close</string>
 </resources>
