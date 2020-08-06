@@ -21,7 +21,7 @@
     <item
         android:id="@+id/lyricAbout"
         android:icon="@drawable/icon8_songlyrics_24"
-        android:title="@string/lyric_menu"
+        android:title="@string/lyric_menu_about"
         app:showAsAction="always" />
 
 
