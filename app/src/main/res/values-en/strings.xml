@@ -35,4 +35,12 @@
 
     <string name="deezer_listV_songName">Song Name</string>
     <string name="deezer_listV_artistName">Artist Name</string>
+
+    <string name="deezer_menu_item1title">GeoData</string>
+    <string name="deezer_menu_item2title">Soccer</string>
+    <string name="deezer_menu_item3title">SongLyrics</string>
+    <string name="deezer_menu_item4title">About</string>
+
+    <string name="deezer_open">Open</string>
+    <string name="deezer_close">Close</string>
 </resources>

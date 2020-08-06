@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <item
+        android:id="@+id/deezer_menu_item1"
+        android:title="@string/deezer_menu_item1title"
+        android:icon="@drawable/icon8_geo_24"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deezer_menu_item2"
+        android:title="@string/deezer_menu_item2title"
+        android:icon="@drawable/icon8_soccer_24"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/deezer_menu_item3"
+        android:title="@string/deezer_menu_item3title"
+        android:icon="@drawable/icon8_songlyrics_24"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/deezer_menu_item4"
+        android:title="@string/deezer_menu_item4title"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

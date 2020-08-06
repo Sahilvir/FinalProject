@@ -6,12 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".DeezerSearchMain">
 
+    <Toolbar
+        android:id="@+id/deezerToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        />
+
+<!--    <androidx.drawerlayout.widget.DrawerLayout-->
+<!--        android:id="@+id/drawer_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:openDrawer="start">-->
+
     <ImageView
         android:id="@+id/deezerLogo"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:src="@drawable/deezerlogo"
         android:gravity="center"
+
         />
 
     <TextView
@@ -104,5 +119,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
         />
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        android:id="@+id/nav_view"/>-->
+
+<!--    </androidx.drawerlayout.widget.DrawerLayout>-->
 
 </RelativeLayout>

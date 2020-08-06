@@ -1,7 +1,9 @@
 package com.example.finalproject;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +16,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -25,6 +30,9 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
+
+import com.google.android.material.navigation.NavigationView;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -72,6 +80,11 @@ public class DeezerSearchMain extends AppCompatActivity {
         setContentView(R.layout.activity_deezer_search_main);
 
         Intent fromMain = getIntent();
+
+        //creating toolbar
+        Toolbar deezerToolbar = (Toolbar) findViewById(R.id.deezerToolBar);
+        setActionBar(deezerToolbar);
+        //createToolbars();
 
         //setting the EditText to be what is stored in pref
         artistName = (EditText) findViewById(R.id.deezerSearchEditText);
@@ -198,6 +211,69 @@ public class DeezerSearchMain extends AppCompatActivity {
         ProgressBar progBar = (ProgressBar) findViewById(R.id.deezerProgressBar);
         progBar.setVisibility(View.INVISIBLE);
     }
+
+    /**creates the toolbar
+     *
+     */
+//    public void createToolbars(){
+//        //creating toolbar
+//        Toolbar deezerToolbar = (Toolbar) findViewById(R.id.deezerToolBar);
+//        setActionBar(deezerToolbar);
+//
+//        //navigation drawer
+//        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,
+//                drawer, deezerToolbar, R.string.deezer_open, R.string.deezer_close);
+//        drawer.addDrawerListener(toggle);
+//        toggle.syncState();
+//
+//        NavigationView navigationView = findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
+//    }
+
+    /** Inflates the menu from the menu layout
+     *
+     * @param menu
+     * @return
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.deezermenu, menu);
+        return true;
+    }
+
+    /** Allows user to navigate to different activities
+     *
+     * @param item
+     * @return
+     */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+//        switch(item.getItemId()) {
+//            case R.id.deezer_menu_item1:
+//                //go to geo activity
+//                Intent geoIntent = new Intent(this, geoData.class);
+//                startActivity(geoIntent);
+//                break;
+//            case R.id.deezer_menu_item2:
+//                //go to soccer activity
+//                Intent soccerIntent = new Intent(this, soccer.class);
+//                startActivity(soccerIntent);
+//                break;
+//            case R.id.deezer_menu_item3:
+//                // go to songlyrics activity
+//                Intent lyricsIntent = new Intent(this, lyrics.class);
+//                startActivity(lyricsIntent);
+//                break;
+//            case R.id.deezer_menu_item4:
+//                Toast.makeText(this, R.string.lyrics_about,Toast.LENGTH_LONG).show();
+//                break;
+//        }
+        return true;
+    }
+
 
     /** Empties the EditText box and returns the String that was written inside it
      * @return artist name in search box as String
